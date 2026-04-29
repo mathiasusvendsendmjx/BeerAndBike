@@ -12,7 +12,7 @@ public class MonoBehaviourScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void sceneswitch()
     {
-        SceneManager.LoadScene("Strand");
+        SceneManager.LoadScene("RebeccaHavet");
     }
 }
 }

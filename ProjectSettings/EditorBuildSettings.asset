@@ -8,5 +8,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Hospital/hospitalscene.unity
     guid: b86dae1420fed415c846009bc53b0dd1
+  - enabled: 0
+    path: Assets/Scenes/strand.unity
+    guid: bb7f9f6ccbafd40179e6c98387990855
+  - enabled: 1
+    path: Assets/Scenes/Havet/RebeccaHavet.unity
+    guid: f8b799145bd0346b6b2e0c5284c6a6c0
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
