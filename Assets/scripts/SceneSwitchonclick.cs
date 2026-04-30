@@ -7,11 +7,13 @@ using System.Collections;
 public class SceneSwitchonclick : MonoBehaviour
 {
     public VideoPlayer videoPlayer;
+    public AudioSource audioSource;
     public string sceneName = "RebeccaHavet";
 
     private void OnMouseDown()
     {
         videoPlayer.Play();
+        audioSource.Play();
         StartCoroutine(SceneSwitch());
     }
     

@@ -14,5 +14,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Havet/RebeccaHavet.unity
     guid: f8b799145bd0346b6b2e0c5284c6a6c0
+  - enabled: 1
+    path: Assets/Scenes/Hospital/hospitalscene 1.unity
+    guid: 195db3a85ad2d44ffab9366a18f2be7b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
