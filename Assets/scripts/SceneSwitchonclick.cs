@@ -7,6 +7,7 @@ using System.Collections;
 public class SceneSwitchonclick : MonoBehaviour
 {
     public VideoPlayer videoPlayer;
+    public string sceneName = "RebeccaHavet";
 
     private void OnMouseDown()
     {
@@ -18,8 +19,8 @@ public class SceneSwitchonclick : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private IEnumerator SceneSwitch()
     {
-        yield return new WaitForSeconds((float)videoPlayer.clip.length - 1.5f);
+        yield return new WaitForSeconds((float)videoPlayer.clip.length - 1.6f);
         videoPlayer.Pause();
-        SceneManager.LoadScene("RebeccaHavet");
+        SceneManager.LoadScene(sceneName);
     }
 }
