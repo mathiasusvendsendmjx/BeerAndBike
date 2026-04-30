@@ -6,6 +6,7 @@ public class ClickOpenCanvas : MonoBehaviour
 
     private void OnMouseDown()
     {
+        Debug.Log("Canvas should open");
         canvasToOpen.SetActive(true);
     } 
 }
