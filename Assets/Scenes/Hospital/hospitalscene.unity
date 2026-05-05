@@ -2039,6 +2039,7 @@ MonoBehaviour:
   glowIntensity: 0.19
   maxDistance: 4
   outlineScale: 4.69
+  IsInTransition: 0
 --- !u!114 &2102802001
 MonoBehaviour:
   m_ObjectHideFlags: 0

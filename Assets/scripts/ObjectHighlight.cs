@@ -24,6 +24,8 @@ public class InteractGlow : MonoBehaviour
     [Header("Outline")]
     public float  outlineScale  = 1.06f;
 
+    public bool IsInTransition = false;
+
     // ── internals ──────────────────────────────────────────────────────────────
     private Renderer   _renderer;
     private Material[] _mats;
@@ -73,6 +75,8 @@ public class InteractGlow : MonoBehaviour
 
     void Update()
     {
+        if (IsInTransition) return;
+        
         bool looked = IsLookedAt();
 
         // Particles
