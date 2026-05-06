@@ -780,7 +780,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Han mor ringer \n\nHvad har du sige?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7f91551769595412282c857baf14a950, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1bbc8102973b54bb2865a6eddc9b68df, type: 2}
   m_sharedMaterial: {fileID: 4453871130801388374, guid: 7f91551769595412282c857baf14a950, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -847,7 +847,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: -459.80716, w: -357.28775}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &860832684
@@ -2133,6 +2133,7 @@ MonoBehaviour:
   glowIntensity: 0.9
   maxDistance: 4
   outlineScale: 1.06
+  IsInTransition: 0
 --- !u!1 &1550865631 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1599826595754709761, guid: 07fd839bd4e4548ba9c32c3e23e85534, type: 3}
@@ -2558,6 +2559,7 @@ MonoBehaviour:
   glowIntensity: 0.52
   maxDistance: 4
   outlineScale: 4.69
+  IsInTransition: 0
 --- !u!114 &2102802001
 MonoBehaviour:
   m_ObjectHideFlags: 0
