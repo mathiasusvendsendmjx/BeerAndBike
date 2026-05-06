@@ -210,8 +210,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Skriv n\xE5r du kommer hjem\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7f91551769595412282c857baf14a950, type: 2}
-  m_sharedMaterial: {fileID: 4453871130801388374, guid: 7f91551769595412282c857baf14a950, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1bbc8102973b54bb2865a6eddc9b68df, type: 2}
+  m_sharedMaterial: {fileID: -2662566729448585515, guid: 1bbc8102973b54bb2865a6eddc9b68df, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
