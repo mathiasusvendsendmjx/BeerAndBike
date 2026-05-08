@@ -13,7 +13,7 @@ public class AfterDelayRingNlights : MonoBehaviour
 
     private void ActivateRingAndLights()
     {
-        ringSound.Play();
+        ringSound.PlayOneShot(ringSound.clip);
         
     }
 }
