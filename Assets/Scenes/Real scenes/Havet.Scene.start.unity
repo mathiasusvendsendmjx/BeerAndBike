@@ -15,9 +15,9 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
   m_Fog: 1
-  m_FogColor: {r: 1, g: 0.4292453, b: 0.4292453, a: 1}
+  m_FogColor: {r: 1, g: 0.33636326, b: 0, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.015
+  m_FogDensity: 0.014
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -29,7 +29,7 @@ RenderSettings:
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   m_HaloStrength: 1
   m_FlareStrength: 1
-  m_FlareFadeSpeed: 1.48
+  m_FlareFadeSpeed: 7.59
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_DefaultReflectionMode: 0
@@ -605,7 +605,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 0
@@ -745,7 +745,7 @@ Transform:
   m_GameObject: {fileID: 404740703}
   serializedVersion: 2
   m_LocalRotation: {x: 0.022915633, y: 0.65884805, z: -0.7486444, w: 0.07018371}
-  m_LocalPosition: {x: 2.333, y: 0.007, z: 0.142}
+  m_LocalPosition: {x: 2.331, y: 0.041, z: 0.138}
   m_LocalScale: {x: 0.13967189, y: 1, z: 0.03128243}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5764,7 +5764,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 0
@@ -15878,7 +15878,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 2.18
@@ -16627,7 +16627,7 @@ Transform:
   m_GameObject: {fileID: 1341047280}
   serializedVersion: 2
   m_LocalRotation: {x: 0.15521716, y: 0.6577988, z: -0.7256327, w: 0.12909497}
-  m_LocalPosition: {x: 0.97, y: 0.02, z: -0.41}
+  m_LocalPosition: {x: 0.92, y: 0.124, z: -0.443}
   m_LocalScale: {x: 0.13967189, y: 1, z: 0.03128243}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18039,7 +18039,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -2724999400841618903, guid: 6bf369dad5f604b52a28d74e2100b11e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6
+      value: -7.7
       objectReference: {fileID: 0}
     - target: {fileID: -2724999400841618903, guid: 6bf369dad5f604b52a28d74e2100b11e, type: 3}
       propertyPath: m_LocalPosition.z
