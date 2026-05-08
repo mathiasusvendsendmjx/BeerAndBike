@@ -6,16 +6,25 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Hospital/hospitalscene.unity
+    path: Assets/Scenes/hospitalscene.unity
     guid: b86dae1420fed415c846009bc53b0dd1
   - enabled: 0
     path: Assets/Scenes/strand.unity
     guid: bb7f9f6ccbafd40179e6c98387990855
   - enabled: 1
-    path: Assets/Scenes/Havet/RebeccaHavet.unity
+    path: Assets/Scenes/RebeccaHavet.unity
     guid: f8b799145bd0346b6b2e0c5284c6a6c0
   - enabled: 1
-    path: Assets/Scenes/Hospital/hospitalscene 1.unity
+    path: Assets/Scenes/hospitalscene 1.unity
     guid: 195db3a85ad2d44ffab9366a18f2be7b
+  - enabled: 1
+    path: Assets/Scenes/Real scenes/hospitalscene.Start.unity
+    guid: 5fdac84f83aaa4cd6914de516a62de16
+  - enabled: 1
+    path: Assets/Scenes/Real scenes/hospitalscene.end.unity
+    guid: 856a734a319f540299dd006d061bbba8
+  - enabled: 1
+    path: Assets/Scenes/Real scenes/Havet.Scene.start.unity
+    guid: 6c6eda4a97d654824917980cf965ff64
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
